@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="w-full border-b-2 border-gray-300/80 pb-8 md:pb-12">
         <div className="flex flex-wrap items-center justify-center gap-x-6 sm:gap-x-10 gap-y-4 text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold uppercase tracking-tight text-center">
           <a
-            href="https://github.com/shreejalgupta/"
+            href="https://github.com/pramodnawale0091"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:italic transition-all duration-300 hover:opacity-80"
@@ -17,7 +17,7 @@ const Footer = () => {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/shrijal-gupta-413aa3359/"
+            href="https://www.linkedin.com/in/pramod-nawale-451818384?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:italic transition-all duration-300 hover:opacity-80"
@@ -25,13 +25,13 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href="mailto:shreejalgupta@outlook.com"
+            href="mailto:pramodnawale1436@gmail.com"
             className="hover:italic transition-all duration-300 hover:opacity-80"
           >
             Email
           </a>
           <a
-            href="https://instagram.com/shrizzzl307"
+            href="https://www.instagram.com/pramod_nawale0091?igsh=NTRnOGdvYmR2eWI0"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:italic transition-all duration-300 hover:opacity-80"
@@ -45,10 +45,10 @@ const Footer = () => {
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0 pt-8 sm:pt-10 text-center sm:text-left">
         <div>
           <h3 className="font-mono uppercase tracking-wider font-bold text-lg sm:text-xl">
-            Shrijal
+            Pramod
           </h3>
           <p className="font-mono uppercase tracking-widest text-xs sm:text-sm text-gray-700 mt-1">
-            Crafted By SHRIJAL
+            Crafted By Pramod
           </p>
         </div>
 

@@ -41,7 +41,7 @@ const JourneyPage = () => {
             The <br /> Journey
           </h2>
           <p className="text-2xl text-on-surface-variant">
-            From basic markup to complex choreographies of motion and logic.
+            From basics to complex choreographies of motion and logic.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ const JourneyPage = () => {
             <div className="relative pl-12 group reveal-up ">
               <div className="absolute left-0 top-2 w-5 h-5 rounded-full border-2  bg-white border-black  transition-all group-hover:bg-black"></div>
               <h4 className="text-3xl md:text-4xl font-bold text-primary mb-2">
-               The Foundation
+                The Foundation
               </h4>
               <p className="text-xl text-on-surface-variant mb-4">
                 Started with the fundamentals of the web, learning how structure, styling, and logic come together to create functional interfaces.

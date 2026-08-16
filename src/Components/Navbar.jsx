@@ -101,7 +101,7 @@ const Navbar = () => {
   return (
     <header ref={headerRef} className='w-full py-4 md:py-6 px-6 md:px-20 flex justify-between items-center border-b-2 border-black fixed bg-white z-40 '>
       <div className="left cursor-pointer ">
-        <h1 ref={headingRef} className='navHeading font-medium uppercase text-3xl md:text-5xl tracking-tight italic'><a href="#hero">Shri<span className='not-italic'>j</span>al</a></h1>
+        <h1 ref={headingRef} className='navHeading font-medium uppercase text-3xl md:text-5xl tracking-tight italic'><a href="#hero">Pramod</a></h1>
       </div>
 
       <div className='right'>

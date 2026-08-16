@@ -5,42 +5,42 @@ const SocialPage = () => {
     <div className="w-screen h-screen relative">
       {/* Background Image */}
       <div className="w-full h-full overflow-hidden">
-        <img 
-          src="image3.png" 
-          alt="image" 
-          className="w-full h-full object-cover scale-105 filter grayscale" 
+        <img
+          src="image3.png"
+          alt="image"
+          className="w-full h-full object-cover scale-105 filter grayscale"
         />
       </div>
 
       {/* Overlay Text Box */}
 
-      
-      
+
+
       <div className="absolute scale-125 inset-0 flex items-center justify-center">
         <div className="bg-[#e6e0e0e1] text-center p-10 rounded-lg border-3 shadow-[2px_2px_0_0] max-w-xl floating">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             LET'S BUILD SOMETHING TOGETHER.
           </h2>
-          
+
           <div className="flex gap-6 justify-center text-lg font-semibold">
-            <a 
-              href="https://github.com/shreejalgupta/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://github.com/pramodnawale0091"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary hover:text-black hover:italic hover:underline duration-300 transition-colors"
             >
               GitHub
             </a>
-            <a 
-              href="https://www.linkedin.com/in/shrijal-gupta-413aa3359/?isSelfProfile=false" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://www.linkedin.com/in/pramod-nawale-451818384?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary hover:text-black hover:italic hover:underline duration-300 transition-colors"
             >
               LinkedIn
             </a>
-            <a 
-              href="mailto:shreejalgupta@outlook.com" 
+            <a
+              href="mailto:pramodnawale1436@gmail.com"
               className="text-primary hover:text-black hover:italic hover:underline duration-300 transition-colors"
             >
               Email
@@ -48,7 +48,7 @@ const SocialPage = () => {
           </div>
         </div>
       </div>
-      
+
     </div>
   )
 }
