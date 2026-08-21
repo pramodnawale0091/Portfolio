@@ -11,6 +11,7 @@ body {
   background-color: #f7f2e8; /* Paper Cream from prompt, mapping to bg-background */
   color: #111936; /* Deep Navy from prompt, mapping to text-primary-container */
   font-family: "Playfair Display", serif;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   display: none;

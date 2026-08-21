@@ -1,28 +1,25 @@
-import React from 'react'
+import React from "react";
 
 const SocialPage = () => {
   return (
-    <div className="w-screen h-screen relative">
+    <div className="w-full min-h-screen relative overflow-hidden">
       {/* Background Image */}
-      <div className="w-full h-full overflow-hidden">
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
         <img
           src="image3.png"
-          alt="image"
+          alt="Contact background"
           className="w-full h-full object-cover scale-105 filter grayscale"
         />
       </div>
 
       {/* Overlay Text Box */}
-
-
-
-      <div className="absolute scale-125 inset-0 flex items-center justify-center">
-        <div className="bg-[#e6e0e0e1] text-center p-10 rounded-lg border-3 shadow-[2px_2px_0_0] max-w-xl floating">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            LET'S BUILD SOMETHING TOGETHER.
+      <div className="relative z-10 flex items-center justify-center min-h-screen px-4 py-16">
+        <div className="bg-[#e6e0e0e1] text-center p-6 sm:p-10 rounded-lg border-3 shadow-[2px_2px_0_0] w-full max-w-xs sm:max-w-md md:max-w-xl floating">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
+            LET`S BUILD SOMETHING TOGETHER.
           </h2>
 
-          <div className="flex gap-6 justify-center text-lg font-semibold">
+          <div className="flex gap-4 sm:gap-6 justify-center text-base sm:text-lg font-semibold flex-wrap">
             <a
               href="https://github.com/pramodnawale0091"
               target="_blank"
@@ -48,9 +45,8 @@ const SocialPage = () => {
           </div>
         </div>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default SocialPage
+export default SocialPage;

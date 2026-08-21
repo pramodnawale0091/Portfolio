@@ -125,6 +125,7 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <ul className='hidden md:flex uppercase font-mono items-center gap-8 text-base font-semibold'>
           <li className='list-items-li hover:text-black hover:scale-105 transition-transform cursor-pointer'><a href="#about">About</a></li>
+          <li className='list-items-li hover:text-black hover:scale-105 transition-transform cursor-pointer'><a href="#skills">Skills</a></li>
           <li className='list-items-li hover:text-black hover:scale-105 transition-transform cursor-pointer'><a href="#work">Work</a></li>
           <li className='list-items-li hover:text-black hover:scale-105 transition-transform cursor-pointer'><a href="#journey">Journey</a></li>
           <li className='list-items-li hover:text-black hover:scale-105 transition-transform cursor-pointer'><a href="#contact">Contact</a></li>
@@ -133,12 +134,13 @@ const Navbar = () => {
         {/* Mobile Fullscreen Menu */}
         <ul
           ref={mobileMenuRef}
-          className='mobile-menu fixed top-18 left-0 w-full h-screen flex flex-col items-center justify-center gap-8 text-4xl font-mono bg-white opacity-0 pointer-events-none z-30 md:hidden'
+          className='mobile-menu fixed top-18 left-0 w-full h-screen flex flex-col items-center justify-center gap-6 text-3xl font-mono bg-white opacity-0 pointer-events-none z-30 md:hidden'
         >
-          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#about">About</a></li>
-          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#work">Work</a></li>
-          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#journey">Journey</a></li>
-          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#contact">Contact</a></li>
+          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#about" onClick={() => setOpenNav(false)}>About</a></li>
+          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#skills" onClick={() => setOpenNav(false)}>Skills</a></li>
+          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#work" onClick={() => setOpenNav(false)}>Work</a></li>
+          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#journey" onClick={() => setOpenNav(false)}>Journey</a></li>
+          <li className='mobile-nav-li cursor-pointer hover:scale-105 transition-transform'><a href="#contact" onClick={() => setOpenNav(false)}>Contact</a></li>
         </ul>
       </div>
     </header>
