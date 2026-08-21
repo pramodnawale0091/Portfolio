@@ -4,6 +4,7 @@ import HeroPage from "./pages/HeroPage";
 import Navbar from "./Components/Navbar";
 import AboutPage from "./pages/AboutPage";
 import WorkPage from "./pages/WorkPage";
+import SkillsPage from "./pages/SkillsPage";
 import JourneyPage from "./pages/JourneyPage";
 import SocialPage from "./pages/SocialPage";
 import Footer from "./Components/Footer";
@@ -27,6 +28,9 @@ const App = () => {
           </div>
           <div id="about" className="scroll-mt-24">
             <AboutPage />
+          </div>
+          <div id="skills" className="scroll-mt-24">
+            <SkillsPage />
           </div>
           <div id="work" className="scroll-mt-24">
             <WorkPage />
